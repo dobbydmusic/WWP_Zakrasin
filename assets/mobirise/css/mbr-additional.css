@@ -12,6 +12,10 @@
 
 
 
+
+
+
+
 body,
 input,
 textarea,
@@ -59,6 +63,12 @@ h6,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Montserrat', sans-serif;
+}
+.btn {
+  border-radius: 1.6em;
+}
+.mbr-subscribe .btn {
+  border-radius: 1.6em !important;
 }
 .btn-sm,
 .lead a,
@@ -421,7 +431,7 @@ h6,
 }
 #msg-box5-3 H3 {
   font-size: 30px;
-  color: #b4572f;
+  color: #000000;
 }
 #msg-box4-l .btn {
   font-family: 'Bitter', serif;
@@ -436,6 +446,24 @@ h6,
   text-align: center;
   font-size: 20px;
   font-family: 'Bitter', serif;
+}
+#buttons1-x .btn {
+  font-size: 18px;
+  font-family: 'Bitter', serif;
+}
+#msg-box5-12 P {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+#msg-box5-12 H3 {
+  font-size: 36px;
+}
+#msg-box4-13 .btn {
+  font-size: 18px;
+  font-family: 'Bitter', serif;
+}
+#buttons1-14 .btn {
+  font-size: 16px;
 }
 #form1-0 .form-control-label {
   color: #232323;
@@ -455,9 +483,13 @@ h6,
   font-size: 15px;
   font-family: 'Bitter', serif;
 }
-#social-buttons2-1 .mbr-section-title,
-#social-buttons2-1 .btn-social {
+#social-buttons2-w .mbr-section-title,
+#social-buttons2-w .btn-social {
   color: #232323;
+}
+#social-buttons2-w .mbr-section-title {
+  font-size: 20px;
+  font-family: 'Bitter', serif;
 }
 #footer1-2 P {
   color: #000000;
