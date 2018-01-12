@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WWP Zak",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 22,
+    "uniqCompNum": 26,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/photo-128x128.png",
     "noImageResize": "",
@@ -54,7 +54,7 @@
           },
           "_anchor": "msg-box5-3",
           "_params": {
-            "imageSize": "20",
+            "imageSize": "35",
             "paddingTop": 0,
             "paddingBottom": 0,
             "parallax": true,
@@ -113,15 +113,22 @@
               "font-size": "17px"
             },
             "H3": {
-              "font-size": "30px",
+              "font-size": "48px",
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center",
+              "font-size": "20px",
               "font-family": "'Bitter', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
             }
           },
           "_anchor": "msg-box4-l",
           "_params": {
-            "imageSize": "57",
-            "paddingTop": "1",
+            "imageSize": "70",
+            "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": true,
             "bgImageRadio": false,
@@ -135,9 +142,9 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
+            "inverse": false,
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": true
           },
           "media": {
@@ -158,9 +165,9 @@
               "size": 250
             }
           },
-          "title": "Присоединяйся к команде победителей",
-          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://winwinpeople.com/reg/AlievaLider\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ЗАРЕГИСТРИРОВАТЬСЯ</a>"
+          "title": "Получай cashback со всех своих покупок!",
+          "text": "Вы можете зарабатывать от 1 000 евро в месяц!<br><br>Хотите знать как?<br><br>Присоединяйтесь к команде победителей!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://winwinpeople.com/reg/AlievaLider\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СТАНЬТЕ УСПЕШНЫМ</a>"
         },
         {
           "_tags": [
@@ -174,7 +181,9 @@
             "SMALL": {
               "text-align": "center",
               "color": "#260202",
-              "font-size": "19px"
+              "font-size": "23px",
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
             },
             ".mbr-section-title": {
               "font-family": "'Bitter', serif",
@@ -205,7 +214,7 @@
             "showSubTitle": true
           },
           "title": "Присоединяйся к <br>команде победителей",
-          "subtitle": "<br><br>Заполните форму, чтобы узнать подробнее:<br>",
+          "subtitle": "Заполните форму, чтобы узнать подробнее:<br>",
           "form": {
             "action": "alievaod@gmail.com",
             "alerts": {
@@ -285,30 +294,14 @@
             "overlayColor": "#444444"
           },
           "text": "Все права защищены (с) &nbsp;2017"
-        }
-      ]
-    },
-    "page1.html": {
-      "settings": {
-        "title": "Website Generator Title",
-        "meta_descr": "Website Generator Description",
-        "order": 1
-      },
-      "components": [
+        },
         {
-          "_inherit": "msg-box8",
           "_styles": {
             ".mbr-section-title, p": {
-              "color": "#000"
+              "color": "#fff"
             },
-            ".mbr-section-title": {
-              "font-size": "32px",
-              "text-align": "center",
-              "font-family": "'Bitter', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
-            },
-            ".btn": {
-              "font-size": "20px",
+            ".lead": {
+              "font-size": "11px",
               "font-family": "'Bitter', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
             }
@@ -316,11 +309,11 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-b",
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-n",
           "_params": {
-            "paddingTop": "5",
-            "paddingBottom": "5",
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
@@ -330,159 +323,25 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": true
+            "showTitle": false,
+            "showText": true,
+            "showButton": false
           },
-          "title": "ЗАРАБАТЫВАЙ ОТ 1000 ЕВРО В МЕСЯЦ",
-          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">НАЧАТЬ</a>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "font-size": "14px",
-              "font-family": "'Bitter', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
-              "text-align": "right",
-              "color": "#232323"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-f",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#f4973f",
-            "showMeta": false
-          },
-          "title": "Все права защищены (с)  2017",
-          "meta": "By John Smith posted July 20, 2016"
-        },
-        {
-          "_inherit": "features3",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features6",
-          "_anchor": "features6-h",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#f4973f",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
-            "showImages": false,
-            "showTitles": false,
-            "showSubtitles": false,
-            "ShowTexts": false,
-            "showButtons": false
-          },
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "desktop",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "mobile",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "pencil",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+          "title": "ARTICLE HEADER",
+          "text": "*Ваше добровольное согласие оставить имя, телефон и адрес электронной почты подтверждается путем ввода вашего имени, телефона и/или адреса электронной почты в соответствующую форму. Информация, собранная после отправки формы на сайте (а именно: имя, телефон и адрес электронной почты) нигде не публикуется и не доступна другим посетителям сайта. Имя используется для личного обращения к Вам, а телефон и адрес электронной почты — для уточнения вопросов. При необходимости использовать ваши данные для целей, не упомянутых в настоящей политике конфиденциальности, мы всегда запрашиваем предварительное согласие на это. Ваши Имя, телефон и адрес электронной почты никогда, ни при каких условиях не будут переданы третьим лицам, за исключением случаев, связанных с исполнением действующего законодательства. Все ваши данные строго конфиденциальны. Мы не передаем их третьим лицам и не рассылаем спам.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         }
       ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": []
     }
   }
 }
