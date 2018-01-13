@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 41,
+    "uniqCompNum": 43,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/photo-128x128.png",
     "noImageResize": "",
@@ -50,6 +50,9 @@
             "H3": {
               "font-size": "30px",
               "color": "#000000"
+            },
+            "P": {
+              "font-size": "22px"
             }
           },
           "_anchor": "msg-box5-3",
@@ -70,8 +73,8 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#fff",
             "inverse": true,
-            "showTitle": true,
-            "showText": true,
+            "showTitle": false,
+            "showText": false,
             "showButtons": false
           },
           "media": {
@@ -101,6 +104,54 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "text-align": "center"
+            },
+            ".lead P": {
+              "color": "#000000"
+            },
+            ".lead": {
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-size": "23px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-15",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#f4973f",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#f4973f",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Сергей Закрасин",
+          "text": "Телефон/What'sApp: +7 (965) 292 29 01",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
           "_inherit": "msg-box5",
           "_tags": [
             "Theme"
@@ -120,7 +171,7 @@
             },
             "P": {
               "text-align": "center",
-              "font-size": "20px",
+              "font-size": "30px",
               "font-family": "'Bitter', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
             }
@@ -166,7 +217,7 @@
             }
           },
           "title": "Получай cashback со всех своих покупок!",
-          "text": "Вы можете зарабатывать от 1 000 евро в месяц!<br><br>Хотите знать как?<br><br>Присоединяйтесь к команде победителей!",
+          "text": "Вы можете зарабатывать от 1 000 евро в месяц!<br>Хотите знать как?<br>Присоединяйтесь к команде победителей!",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://winwinpeople.com/reg/Avgusteishiy/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СТАНЬТЕ УСПЕШНЫМ</a>"
         },
         {
@@ -174,26 +225,36 @@
             "Theme"
           ],
           "_name": "buttons1",
-          "_anchor": "buttons1-x",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgColor": "#f4973f"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://winwinpeople.com/reg/Avgusteishiy/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СТАНЬТЕ УСПЕШНЫМ</a> ",
           "_styles": {
             ".btn": {
               "font-size": "18px",
               "font-family": "'Bitter', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
             }
-          }
+          },
+          "_anchor": "buttons1-x",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#f4973f"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://winwinpeople.com/reg/Avgusteishiy/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СТАНЬТЕ УСПЕШНЫМ</a> "
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "H3": {
+              "font-size": "36px"
+            }
+          },
           "_anchor": "msg-box5-12",
           "_params": {
             "imageSize": "57",
@@ -240,17 +301,7 @@
           },
           "title": "Список магазинов:",
           "text": "AliExpress<br>Ашан<br>М.Видео<br>Спортмастер<br>Lamoda<br>Утконос<br>O'STIN<br>Delivery Club<br>Дочки &amp; Сыночки<br>NIKE<br>ONE TWO TRIP<br>OZON.RU<br>+ еще более 600 магазинов-партнеров",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_styles": {
-            "P": {
-              "text-align": "left",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            },
-            "H3": {
-              "font-size": "36px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -258,6 +309,13 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            ".btn": {
+              "font-size": "18px",
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
+            }
+          },
           "_anchor": "msg-box4-13",
           "_params": {
             "imageSize": "55",
@@ -300,14 +358,7 @@
           },
           "title": "Присоединяйся к команде победителей!",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://winwinpeople.com/reg/Avgusteishiy/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ЗАРЕГИСТРИРОВАТЬСЯ</a>",
-          "_styles": {
-            ".btn": {
-              "font-size": "18px",
-              "font-family": "'Bitter', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://winwinpeople.com/reg/Avgusteishiy/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ЗАРЕГИСТРИРОВАТЬСЯ</a>"
         },
         {
           "_tags": [
@@ -339,7 +390,7 @@
             "SMALL": {
               "text-align": "center",
               "color": "#260202",
-              "font-size": "23px",
+              "font-size": "25px",
               "font-family": "'Bitter', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
             },
